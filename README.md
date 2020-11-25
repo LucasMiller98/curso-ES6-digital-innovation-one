@@ -50,3 +50,26 @@ OBS.: Sempre que for passado para uma função seja um objeto ou um array, ele �
 `OBS.: Ao atribuir a um const ao uma string, não permite que troque de valor. Ao criar um objeto, ele vai permitir que altere o valor. Só não pode mudar um onde o ponteiro dele está apontando. `
 
 - Tipo primitivo, não muda; só objeto.
+
+# Tipos e variáveis
+
+- function é um objeto, mas permite que o objeto seja chamado
+- array é um objeto, mas ele tem uma relação com os ítens
+- array organiza cada ítem: index, que é a posição do elemento e o segundo que é o ítem atribuido.
+
+## String
+
+- O split(), retorna um array quebrando por um delimitador
+- O replace(), busca por um valor e substitui por outro. O primeiro parâmetro, é o que ele vai procurar e o segundo, será o substitudo.
+- O slice(), retorna a fatia de um falor
+- O substr(), retorna N caracteres a partir de uma posição.
+
+# Number
+
+- toString(), number to String()
+- toFixed(), retorna número com um número de casas decimais.
+- parseFloat()
+- parseInt()
+
+OBS.: Só tem o type number.
+OBS.: Por mais que tenha a função parseFloat e parseInt, no JS, só existe number
