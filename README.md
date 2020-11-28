@@ -73,3 +73,60 @@ OBS.: Sempre que for passado para uma função seja um objeto ou um array, ele �
 
 OBS.: Só tem o type number.
 OBS.: Por mais que tenha a função parseFloat e parseInt, no JS, só existe number
+
+# Objects
+
+- Para valores dinâmicos, para pegar uma propriedade, podemos usar o (prop), usaremos sempre o cochete do let user = { name: 'Lucas' } por exemplo.
+
+# functions
+
+- Se for executada só uma expressão, não precisa usar o return
+- Se existir uma condicionais ou variáveis, precisa do return
+
+OBS.: Funções também são objetos que permitem serem chamados. 
+OBS.: Funções filter, map e reduce não alterão as referencias dos objetos, mas sim um novo
+
+# Quando usar function ou arrow function? 
+
+- Contexto de criação
+
+# Operadores
+
+- Aritméticos
+- Atribuição
+- Comparação
+- Condicional
+- Lógicos
+- Spread
+
+## Oparadores de incremento
+
+- Se o operador estiver na frente, a variável ja vai receber o valor incrementado
+- Se o operador estiver depor, a variável recebe o valor atual
+
+OBS.: O -true, retorna -1.
+
+## Comparação
+
+- Igualdade é com dois '=='. Retorna true, caso os dois operandos sejam iguais.
+- Para comparar, além do valor, o tipo usamos o '==='. Por boas práticas de programação, usar sempre esse.
+- '!==' estritamente diferente
+
+## Spread
+
+- Consegue iterar cada ítem do array ou objeto e passar por parâmetro
+- Ultilizado para concatenar arrays
+- Cria um novo apartir de um já exitente
+
+# if, else, else if
+
+- Para cair em mais de uma condição, temos que usar o if sozinho
+
+# Estruturas de repetição
+
+- for
+- while
+- do...while
+- for...in
+- continue > Manipula as estruturas de repetição
+- break > Manipula as estruturas de repetição
